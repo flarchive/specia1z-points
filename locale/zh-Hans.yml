@@ -1,0 +1,59 @@
+acme-points:
+  admin:
+    permissions:
+      add_points: 给用户增加积分
+      subtract_points: 扣除用户积分
+      adjust_points: 设置或调整用户积分
+    adjust_points:
+      button: 调整积分
+      title: 调整 {username} 的积分
+      type_label: 操作类型
+      amount_label: 数量
+      add: 增加积分
+      subtract: 扣除积分
+      set: 设置积分余额
+      submit: 保存调整
+    settings:
+      currency_name: 积分名称
+      currency_name_help: 显示给用户的积分名称。
+      currency_icon: 积分图标
+      currency_icon_help: 积分旁边显示的 Font Awesome class，例如 fas fa-coins 或 fas fa-star。
+      currency_style: 积分徽章样式
+      currency_style_help: 选择积分徽章的预设样式，预览会即时更新，保存后应用到前台。
+      styles:
+        gold: 经典金色
+        gold_help: 温暖醒目
+        emerald: 翡翠绿
+        emerald_help: 清新有活力
+        ocean: 海洋蓝
+        ocean_help: 平静专业
+        violet: 紫罗兰
+        violet_help: 个性鲜明
+        graphite: 石墨灰
+        graphite_help: 中性克制
+      registration_reward: 注册奖励
+      registration_reward_help: 用户注册时获得的积分。
+      discussion_reward: 发帖奖励
+      discussion_reward_help: 用户发布新主题时获得的积分。
+      reply_reward: 回复奖励
+      reply_reward_help: 用户回复主题时获得的积分。
+      best_answer_reward: 最佳答案奖励
+      best_answer_reward_help: 用户的回复被标记为最佳答案时获得的积分，取消标记时扣回相同积分。
+      like_reward: 获赞奖励
+      like_reward_help: 用户的帖子被其他用户点赞时获得的积分，取消点赞时扣回相同积分。自己给自己点赞不计入。
+      suspend_penalty: 暂停处罚
+      suspend_penalty_help: 用户被暂停时扣除的积分，设置为 0 可关闭此联动。
+      delete_reward: 删除内容时扣回积分
+      delete_reward_help: 删除主题或回复时，扣除之前发放的对应奖励。
+  forum:
+    points: "{count} {name}"
+    reasons:
+      registration: 注册奖励
+      discussion: 发帖奖励
+      reply: 回复奖励
+      deleted: 删除内容扣除
+      best_answer: 最佳答案奖励
+      best_answer_removed: 取消最佳答案
+      like_received: 获得点赞
+      like_removed: 取消点赞
+      suspended: 暂停处罚

@@ -1,0 +1,59 @@
+acme-points:
+  admin:
+    permissions:
+      add_points: Add points to users
+      subtract_points: Deduct points from users
+      adjust_points: Set or adjust user points
+    adjust_points:
+      button: Adjust points
+      title: Adjust points for {username}
+      type_label: Operation
+      amount_label: Amount
+      add: Add points
+      subtract: Deduct points
+      set: Set balance
+      submit: Save adjustment
+    settings:
+      currency_name: Points name
+      currency_name_help: The name shown to users for this currency.
+      currency_icon: Points icon
+      currency_icon_help: Font Awesome class shown next to points, for example fas fa-coins or fas fa-star.
+      currency_style: Points badge style
+      currency_style_help: Choose a preset for the points badge. The preview updates immediately and changes apply after saving.
+      styles:
+        gold: Classic gold
+        gold_help: Warm and noticeable
+        emerald: Emerald
+        emerald_help: Fresh and rewarding
+        ocean: Ocean blue
+        ocean_help: Calm and professional
+        violet: Violet
+        violet_help: Distinct and expressive
+        graphite: Graphite
+        graphite_help: Neutral and understated
+      registration_reward: Registration reward
+      registration_reward_help: Points awarded to a user when their account is created.
+      discussion_reward: New discussion reward
+      discussion_reward_help: Points awarded when a user starts a discussion.
+      reply_reward: Reply reward
+      reply_reward_help: Points awarded when a user posts a reply.
+      best_answer_reward: Best answer reward
+      best_answer_reward_help: Points awarded to the author when their reply is marked as the best answer. The same amount is removed if it is unmarked.
+      like_reward: Like received reward
+      like_reward_help: Points awarded to a post author when another user likes their post. The same amount is removed if the like is removed. Self-likes do not count.
+      suspend_penalty: Suspension penalty
+      suspend_penalty_help: Points removed when a user is suspended. Set to 0 to disable this integration.
+      delete_reward: Remove points when content is deleted
+      delete_reward_help: Deduct the original reward when a discussion or post is deleted.
+  forum:
+    points: "{count} {name}"
+    reasons:
+      registration: Registration reward
+      discussion: New discussion reward
+      reply: Reply reward
+      deleted: Deleted content deduction
+      best_answer: Best answer reward
+      best_answer_removed: Best answer unmarked
+      like_received: Like received
+      like_removed: Like removed
+      suspended: Suspension penalty
