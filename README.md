@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of specia1z/points.** Not for installation: use [Packagist](https://packagist.org/packages/specia1z/points) or the [upstream repository](https://github.com/Specia1z/Flarum-Points).
 
-**0** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/specia1z-points/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0.0`
+**1** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/specia1z-points/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `2.0.0` | 2026-10-12 | `^2.0.0` | [Browse](https://github.com/flarchive/specia1z-points/tree/archive/v2.0.0) |
 
 Catalog entry: [packages/specia1z-points.json](https://github.com/flarchive/archive-index/blob/main/packages/specia1z-points.json)
 
