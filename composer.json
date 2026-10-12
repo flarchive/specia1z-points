@@ -1,0 +1,52 @@
+{
+    "name": "specia1z/points",
+    "version": "2.0.2",
+    "description": "A configurable points and rewards system for Flarum.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Specia1z",
+            "homepage": "https://github.com/Specia1z"
+        }
+    ],
+    "homepage": "https://github.com/Specia1z/Flarum-Points",
+    "keywords": [
+        "flarum",
+        "flarum-extension",
+        "points",
+        "rewards"
+    ],
+    "require": {
+        "flarum/core": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Specia1z\\Points\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Points",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-coins",
+                "backgroundColor": "#C28F2C",
+                "color": "#ffffff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "css": true,
+                "typescript": true,
+                "prettier": true,
+                "backendTesting": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

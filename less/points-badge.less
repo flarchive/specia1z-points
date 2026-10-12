@@ -1,0 +1,102 @@
+.PointsBadge {
+  --points-badge-background: #fff8e6;
+  --points-badge-border: #efd58c;
+  --points-badge-color: #785313;
+  --points-badge-icon: #c28f2c;
+  --points-badge-dark-background: rgba(194, 143, 44, 0.16);
+  --points-badge-dark-border: rgba(239, 213, 140, 0.45);
+  --points-badge-dark-color: #f3d58b;
+  align-items: center;
+  background: var(--points-badge-background);
+  border: 1px solid var(--points-badge-border);
+  border-radius: 999px;
+  color: var(--points-badge-color);
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 7px;
+  line-height: 18px;
+  max-width: 100%;
+  padding: 3px 10px 3px 4px;
+  white-space: nowrap;
+}
+
+.PointsBadge--gold {
+  --points-badge-background: #fff8e6;
+  --points-badge-border: #efd58c;
+  --points-badge-color: #785313;
+  --points-badge-icon: #c28f2c;
+  --points-badge-dark-background: rgba(194, 143, 44, 0.16);
+  --points-badge-dark-border: rgba(239, 213, 140, 0.45);
+  --points-badge-dark-color: #f3d58b;
+}
+
+.PointsBadge--emerald {
+  --points-badge-background: #eaf8f0;
+  --points-badge-border: #9bd5b3;
+  --points-badge-color: #17633d;
+  --points-badge-icon: #26915e;
+  --points-badge-dark-background: rgba(38, 145, 94, 0.18);
+  --points-badge-dark-border: rgba(155, 213, 179, 0.45);
+  --points-badge-dark-color: #a8e2be;
+}
+
+.PointsBadge--ocean {
+  --points-badge-background: #eaf5fb;
+  --points-badge-border: #9bcbe4;
+  --points-badge-color: #175878;
+  --points-badge-icon: #2584b2;
+  --points-badge-dark-background: rgba(37, 132, 178, 0.18);
+  --points-badge-dark-border: rgba(155, 203, 228, 0.45);
+  --points-badge-dark-color: #a9dbf1;
+}
+
+.PointsBadge--violet {
+  --points-badge-background: #f3effc;
+  --points-badge-border: #c7b4e8;
+  --points-badge-color: #5e3b8b;
+  --points-badge-icon: #8257ba;
+  --points-badge-dark-background: rgba(130, 87, 186, 0.2);
+  --points-badge-dark-border: rgba(199, 180, 232, 0.45);
+  --points-badge-dark-color: #d6c4f4;
+}
+
+.PointsBadge--graphite {
+  --points-badge-background: #f0f2f4;
+  --points-badge-border: #c5ccd3;
+  --points-badge-color: #3e4852;
+  --points-badge-icon: #66727e;
+  --points-badge-dark-background: rgba(102, 114, 126, 0.2);
+  --points-badge-dark-border: rgba(197, 204, 211, 0.4);
+  --points-badge-dark-color: #d4dbe1;
+}
+
+.PointsBadge-icon {
+  align-items: center;
+  background: var(--points-badge-icon);
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  flex: 0 0 20px;
+  height: 20px;
+  justify-content: center;
+  width: 20px;
+}
+
+.PointsBadge-icon .icon,
+.PointsBadge-icon i {
+  font-size: 11px;
+  line-height: 1;
+}
+
+.PointsBadge-value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body.dark .PointsBadge,
+.App--dark .PointsBadge {
+  background: var(--points-badge-dark-background);
+  border-color: var(--points-badge-dark-border);
+  color: var(--points-badge-dark-color);
+}
